@@ -1,0 +1,226 @@
+body {
+  width: auto;
+  height: auto;
+  background-color: #b2b4b3;
+  background-image: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  height: auto;
+  margin: 15px 0px 10px 25px;
+  color: #ededed;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 25px;
+  line-height: 44px;
+  font-weight: 700;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 200px;
+  float: right;
+  clear: right;
+  font-family: 'Istok Web', sans-serif;
+  color: #ededed;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: right;
+}
+.footer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: auto;
+  height: 180px;
+  border-top: 3px dotted #ededed;
+  border-radius: 0px;
+  background-color: rgba(86, 56, 37, 0.49);
+  background-image: none;
+}
+.main-nav {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: right;
+  border-left: 1px solid #ededed;
+  font-family: Inconsolata, monospace;
+  color: #ededed;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-nav:hover {
+	color:#8cc63e;
+}
+.main-nav:active {
+	color:#8cc63e;
+}
+.main-nav.about {
+  clear: none;
+  border-left-width: 0px;
+}
+.about-body {
+  position: static;
+  left: 0px;
+  top: 0px;
+  margin-right: 30px;
+  margin-left: 25px;
+  padding-right: 70px;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: left;
+  text-indent: 0px;
+}
+.logo {
+  padding-bottom: 0px;
+}
+@media (max-width: 991px) {
+  h1 {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 24px;
+    line-height: 34px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .footer {
+    height: 175px;
+  }
+  .main-nav {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .about-body {
+    margin-top: 10px;
+    margin-bottom: 200px;
+    padding-right: 0px;
+  }
+  .about-img {
+    top: 30px;
+    width: 700px;
+    height: auto;
+    margin-top: 0px;
+    float: none;
+  }
+  .grey-bg {
+    background-color: #b2b4b3;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 30px;
+    float: none;
+  }
+  .footer {
+	position:absolute;
+    top: 0px;
+    height: 225px;
+    border-bottom: 3px dotted #ededed;
+    border-top-width: 0px;
+    border-top-color: rgba(0, 0, 0, 0);
+  }
+  .main-nav {
+    position: static;
+    margin-top: -20px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 30px;
+    clear: none;
+  }
+  .main-nav.about {
+    display: block;
+    overflow: visible;
+    text-align: left;
+  }
+  .logo {
+    position: static;
+    display: inline-block;
+    overflow: visible;
+    margin-top: 10px;
+	margin-bottom:50px;
+    float: none;
+    clear: none;
+    text-align: left;
+  }
+  .about-img {
+    position: static;
+    left: 0px;
+    top: 158px;
+    right: 0px;
+    bottom: 69px;
+    display: block;
+    overflow: visible;
+    margin-top: 140px;
+    padding-top: 95px;
+    clear: none;
+  }
+  .about-body{
+	margin-bottom:40px;  
+	  }
+  .grey-bg {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media (max-width: 479px) {
+  body {
+    position: static;
+    display: block;
+    overflow: visible;
+    clear: none;
+  }
+  .main-nav.about {
+	padding-left:0;
+	}
+  h1 {
+    margin-left: 15px;
+    font-size: 19px;
+    line-height: 25px;
+  }
+  p {
+    padding-top: 5px;
+    padding-right: 15px;
+    line-height: 20px;
+    text-align: right;
+  }
+  .footer {
+	position:absolute;
+    top: 0px;
+    height: 210px;
+    border-bottom: 3px dotted #ededed;
+    border-top-color: rgba(0, 0, 0, 0);
+  }
+  .logo{
+	margin-bottom:40px;  
+	  }
+  .main-nav {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+  .about-body {
+    margin-right: 15px;
+    margin-left: 15px;
+	margin-bottom:40px;
+    font-size: 11.5px;
+  }
+  .about-img {
+    margin-top: 95px;
+    padding-top: 130px;
+  }
+}
